@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.votacion.controlador.VotosController">
+   <children>
+      <Label contentDisplay="RIGHT" layoutX="100.0" layoutY="-1.0" prefHeight="30.0" prefWidth="126.0" text="votaciones" textFill="#d00909">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idTextField" layoutX="61.0" layoutY="243.0" />
+      <Button layoutX="108.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleIngresarButton" prefHeight="25.0" prefWidth="67.0" text="Ingresar" textFill="RED" />
+      <Label layoutX="106.0" layoutY="216.0" text="Ingrese su ID" />
+      <ImageView fitHeight="150.0" fitWidth="205.0" layoutX="66.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes%20/pngtree-vote-on-white-background-png-image_5314924.jpg" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+   <effect>
+      <ColorAdjust brightness="-0.14" contrast="0.19" saturation="-0.05" />
+   </effect>
+</Pane>
